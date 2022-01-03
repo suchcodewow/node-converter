@@ -1,22 +1,16 @@
 {
-  "name": "converter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/suchcodewow/node-converter.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/suchcodewow/node-converter/issues"
-  },
-  "homepage": "https://github.com/suchcodewow/node-converter#readme",
-  "dependencies": {
-    "express": "^4.17.2"
-  },
+  "name": "node-converter",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
